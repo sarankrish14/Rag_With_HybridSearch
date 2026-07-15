@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-pipelines"
+version = "0.1.0"
+description = "Standalone RAG ingestion and retrieval pipelines"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "python-dotenv",
+    "docling",
+    "nltk",
+    "sentence-transformers",
+    "scikit-learn",
+    "numpy",
+    "chromadb",
+    "rank-bm25",
+    "psycopg[binary]",
+    "pgvector",
+    "groq",
+    "redis",
+    "langdetect",
+    "streamlit",
+]
+
+[project.scripts]
+rag-ingest = "semantic_chunker.__main__:main"
+rag-retrieve = "retrieval.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["semantic_chunker*", "retrieval*", "db*", "models*", "evals*"]
+
+[tool.setuptools]
+py-modules = ["config", "chromastore"]

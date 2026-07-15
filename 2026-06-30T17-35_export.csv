@@ -1,0 +1,11 @@
+﻿#,Question,Recall@K,Precision@K,MRR,NDCG@K,Answer coverage,Expected chunks,Retrieved top-K
+1,Who founded Pagani?,66.7%,40.0%,1.000,0.671,66.7%,3,5
+2,What is the Pagani Zonda?,28.6%,40.0%,1.000,0.509,100.0%,7,5
+3,What is the Pagani Huayra?,75.0%,60.0%,1.000,0.788,100.0%,4,5
+4,What cars does Pagani make?,33.3%,100.0%,1.000,1.000,100.0%,15,5
+5,Where is Pagani based?,75.0%,60.0%,1.000,0.788,66.7%,4,5
+6,What material is Pagani known for using in their cars?,28.6%,40.0%,1.000,0.509,100.0%,7,5
+7,When was the first Pagani Zonda introduced?,71.4%,100.0%,1.000,1.000,100.0%,7,5
+8,What engine supplier is associated with early Pagani models?,6.2%,20.0%,0.250,0.146,0.0%,16,5
+9,What is special about Pagani production numbers?,100.0%,20.0%,0.200,0.387,0.0%,1,5
+10,What is the main topic of the Pagani document?,31.2%,100.0%,1.000,1.000,100.0%,16,5

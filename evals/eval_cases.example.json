@@ -1,0 +1,14 @@
+{
+  "cases": [
+    {
+      "question": "What is semantic chunking?",
+      "expected_answer_keywords": ["semantic", "chunk"],
+      "expected_chunk_text": ["semantic chunking"]
+    },
+    {
+      "question": "What is the main topic of the document?",
+      "expected_answer_keywords": ["document"],
+      "expected_chunk_ids": []
+    }
+  ]
+}

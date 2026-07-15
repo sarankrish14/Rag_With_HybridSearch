@@ -1,0 +1,21 @@
+# Secrets / credentials — never commit
+.env
+.env.*
+!.env.example
+*credential*
+*credentials*
+*secret*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Virtual env / caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.claude/
+*.egg-info/
+dist/
+build/

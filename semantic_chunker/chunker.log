@@ -1,0 +1,82 @@
+23:05:17 [WARNING] Chunk 't1' has no doc_id set — ChromaDB metadata will store empty string. Ensure doc_id is injected before calling save_to_chroma().
+23:05:17 [WARNING] Chunk 'x1' has no doc_id set — ChromaDB metadata will store empty string. Ensure doc_id is injected before calling save_to_chroma().
+23:05:17 [INFO] Saved 2 chunks to ChromaDB
+23:05:17 [INFO] Saved 1 chunks to ChromaDB
+23:05:17 [INFO] Checking Postgres for duplicate document...
+23:05:18 [DEBUG] Registered file hash b32bb41a5a584977c0a99b3108f992aa → C:\Users\User\AppData\Local\Temp\tmp3d_3ux1p.pdf
+23:05:18 [INFO] Checking Postgres for duplicate document...
+23:05:20 [DEBUG] Registered file hash b58ae5c0416ba56b674bbfd81ba52946 → C:\Users\User\AppData\Local\Temp\tmpvlu58po0.pdf
+23:06:15 [WARNING] Chunk 't1' has no doc_id set — ChromaDB metadata will store empty string. Ensure doc_id is injected before calling save_to_chroma().
+23:06:15 [WARNING] Chunk 'x1' has no doc_id set — ChromaDB metadata will store empty string. Ensure doc_id is injected before calling save_to_chroma().
+23:06:15 [INFO] Saved 2 chunks to ChromaDB
+23:06:15 [INFO] Saved 1 chunks to ChromaDB
+23:06:15 [INFO] Checking Postgres for duplicate document...
+23:06:16 [DEBUG] Registered file hash b32bb41a5a584977c0a99b3108f992aa → C:\Users\User\AppData\Local\Temp\tmphn1u3zun.pdf
+23:06:16 [INFO] Checking Postgres for duplicate document...
+23:06:17 [DEBUG] Registered file hash b58ae5c0416ba56b674bbfd81ba52946 → C:\Users\User\AppData\Local\Temp\tmpvu758mb9.pdf
+23:08:16 [WARNING] Chunk 't1' has no doc_id set — ChromaDB metadata will store empty string. Ensure doc_id is injected before calling save_to_chroma().
+23:08:16 [WARNING] Chunk 'x1' has no doc_id set — ChromaDB metadata will store empty string. Ensure doc_id is injected before calling save_to_chroma().
+23:08:16 [INFO] Saved 2 chunks to ChromaDB
+23:08:16 [INFO] Saved 1 chunks to ChromaDB
+23:08:16 [INFO] Checking Postgres for duplicate document...
+23:08:17 [DEBUG] Registered file hash b32bb41a5a584977c0a99b3108f992aa → C:\Users\User\AppData\Local\Temp\tmp76zf3urc.pdf
+23:08:17 [INFO] Checking Postgres for duplicate document...
+23:08:18 [DEBUG] Registered file hash b58ae5c0416ba56b674bbfd81ba52946 → C:\Users\User\AppData\Local\Temp\tmpim2xhe1_.pdf
+23:10:56 [WARNING] Chunk 't1' has no doc_id set — ChromaDB metadata will store empty string. Ensure doc_id is injected before calling save_to_chroma().
+23:10:56 [WARNING] Chunk 'x1' has no doc_id set — ChromaDB metadata will store empty string. Ensure doc_id is injected before calling save_to_chroma().
+23:10:56 [INFO] Saved 2 chunks to ChromaDB
+23:10:56 [INFO] Saved 1 chunks to ChromaDB
+23:10:56 [INFO] Checking Postgres for duplicate document...
+23:10:58 [DEBUG] Registered file hash b32bb41a5a584977c0a99b3108f992aa → C:\Users\User\AppData\Local\Temp\tmpbysx9yhe.pdf
+23:10:58 [INFO] Checking Postgres for duplicate document...
+23:10:59 [WARNING] Duplicate detected: 'C:\Users\User\AppData\Local\Temp\tmpbysx9yhe.pdf' was already processed as 'C:\Users\User\AppData\Local\Temp\tmpbysx9yhe.pdf'
+23:10:59 [DEBUG] Registered file hash b58ae5c0416ba56b674bbfd81ba52946 → C:\Users\User\AppData\Local\Temp\tmpi1xqzg3f.pdf
+23:12:15 [WARNING] Chunk 't1' has no doc_id set — ChromaDB metadata will store empty string. Ensure doc_id is injected before calling save_to_chroma().
+23:12:15 [WARNING] Chunk 'x1' has no doc_id set — ChromaDB metadata will store empty string. Ensure doc_id is injected before calling save_to_chroma().
+23:12:15 [INFO] Saved 2 chunks to ChromaDB
+23:12:15 [INFO] Saved 1 chunks to ChromaDB
+23:12:16 [INFO] Checking Postgres for duplicate document...
+23:12:17 [DEBUG] Registered file hash b32bb41a5a584977c0a99b3108f992aa → C:\Users\User\AppData\Local\Temp\tmpecop8tg7.pdf
+23:12:17 [INFO] Checking Postgres for duplicate document...
+23:12:19 [WARNING] Duplicate detected: 'C:\Users\User\AppData\Local\Temp\tmpecop8tg7.pdf' was already processed as 'C:\Users\User\AppData\Local\Temp\tmpecop8tg7.pdf'
+23:12:19 [DEBUG] Registered file hash b58ae5c0416ba56b674bbfd81ba52946 → C:\Users\User\AppData\Local\Temp\tmpwob7_8n7.pdf
+11:31:51 [INFO] Checking Postgres for duplicate document...
+11:31:51 [WARNING] Duplicate detected in Postgres: 'documents\sample.pdf' → doc_id=b50120eb-26e0-4bab-a1d3-84d1f3393114
+11:31:51 [WARNING] Skipping — already processed. Pass force=True to re-process.
+12:35:46 [INFO] Checking Postgres for duplicate document...
+12:35:47 [INFO] 📄 Step 1 — Extracting text from: .\documents\Pagani_Complete_History.pdf
+12:35:47 [INFO] Using Docling for structured extraction...
+12:37:08 [INFO] Extracted 12857 chars across 63 elements
+12:37:08 [INFO] Found 52 text elements and 11 table elements
+12:37:08 [INFO] ✂️  Step 2 — Splitting text into sentences (tables skipped)...
+12:37:08 [INFO] Found 94 sentences from text elements
+12:37:08 [INFO] 🤖 Step 3 — Getting embedding model...
+12:37:08 [INFO] 🤖 Loading model: sentence-transformers/all-mpnet-base-v2
+12:37:14 [INFO] 🔢 Step 4 — Embedding sentences...
+12:37:23 [INFO] Embedding shape: (94, 768)
+12:37:23 [INFO] 🔍 Step 5 — Detecting semantic breakpoints...
+12:37:23 [INFO] Distance stats → min: 0.250 | mean: 0.634 | max: 0.964 | std: 0.166 | auto threshold: 0.767
+12:37:23 [INFO] Found 19 breakpoints at threshold 0.767
+12:37:23 [INFO] 📦 Step 6 — Building semantic text chunks...
+12:37:23 [DEBUG] Skipping garbage text chunk: 'No two cars are identical. Arrived Italy Company Founded...'
+12:37:23 [DEBUG] Skipping garbage text chunk: 'Company Founded First Car Delivered Cars Built All Time...'
+12:37:23 [INFO] 📊 Step 6b — Building table chunks (no splitting)...
+12:37:23 [INFO] Built 15 text chunks + 11 table chunks = 26 total
+12:37:23 [INFO] 🔢 Step 7 — Embedding final chunks for PostgreSQL storage...
+12:37:34 [INFO] 💾 Step 8 — Saving to PostgreSQL...
+12:37:37 [INFO] Stored 26 chunk embeddings in PostgreSQL (doc_id=54489f43-fe41-4610-bb77-384ca5bf6170)
+12:37:40 [INFO] 💾 Step 9 — Saving to ChromaDB...
+12:37:40 [INFO] Saved 26 chunks to ChromaDB
+12:37:40 [DEBUG] Registered file hash 7667430290507eac715ff946e7c0a350 → .\documents\Pagani_Complete_History.pdf
+12:37:40 [INFO] ✅ Done — 26 chunks created from '.\documents\Pagani_Complete_History.pdf'
+10:01:48 [INFO] Force re-ingest: removed existing document doc_id=old-doc-id (hash=abc123deadbeef)
+10:02:54 [WARNING] Chunk 't1' has no doc_id set — ChromaDB metadata will store empty string. Ensure doc_id is injected before calling save_to_chroma().
+10:02:54 [WARNING] Chunk 'x1' has no doc_id set — ChromaDB metadata will store empty string. Ensure doc_id is injected before calling save_to_chroma().
+10:02:54 [INFO] Saved 2 chunks to ChromaDB
+10:02:54 [INFO] Saved 1 chunks to ChromaDB
+10:02:54 [INFO] Checking Postgres for duplicate document...
+10:02:55 [DEBUG] Registered file hash b32bb41a5a584977c0a99b3108f992aa → C:\Users\User\AppData\Local\Temp\tmp4yypf1j7.pdf
+10:02:55 [INFO] Checking Postgres for duplicate document...
+10:02:56 [WARNING] Duplicate detected: 'C:\Users\User\AppData\Local\Temp\tmp4yypf1j7.pdf' was already processed as 'C:\Users\User\AppData\Local\Temp\tmp4yypf1j7.pdf'
+10:02:56 [DEBUG] Registered file hash b58ae5c0416ba56b674bbfd81ba52946 → C:\Users\User\AppData\Local\Temp\tmpn3zyhels.pdf
+10:02:56 [INFO] Force re-ingest: removed existing document doc_id=old-doc (hash=force-test-hash)
